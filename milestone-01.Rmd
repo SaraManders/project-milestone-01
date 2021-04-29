@@ -1,7 +1,7 @@
 ---
 title: "Milestone 1: Project Proposal"
 author:
-    - YOUR_NAME
+    - Sara Manders
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   pdf_document:
