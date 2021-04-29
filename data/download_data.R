@@ -1,6 +1,6 @@
 #' download_data.R
 #'
-#' contributors: INSERT_NAME
+#' contributors: Sara Manders
 #'
 #' Explain what this file does
 #'
