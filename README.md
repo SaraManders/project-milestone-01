@@ -8,7 +8,7 @@ Check the [course syllabus](https://tisem-digital-marketing.github.io/2021-smwa/
 
 ## Meta-Information 
 
-* Name: YOUR_NAME
+* Name: Sara Manders
 * GitHub Handle: YOUR_GH_HANDLE
 * Proposed Project Title: YOUR_TITLE
 
