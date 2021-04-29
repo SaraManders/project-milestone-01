@@ -16,21 +16,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Project Objective
 
-A maximum of three sentences outlining the "big picture" objective(s) of the project.
-It should not be technical, and answer the "Why You Should Care" question - i.e. justify the managerial relevance.
-A non-expert should be able to understand it.
+In The Netherlands, the vaccination passport is hot topic in discussions and of high interest to governmental institutions as well as the food and beverages and entertainment business. Should this be implemented? And if so, how? This study will analyze data on tweets about the vaccination passport.
 
 ## Research Question
 
-SOMETHING (technical jargon can used added here -- **one** sentence!)
+How do people in The Netherlands tweet about (the implementation of) the vaccination passport?
 
 **Sub-Questions:** (if any)
 
-* If none, write "None"
+Are Dutch citizens overall in favor or against the vaccination passport, according to tweets?
+Does being against the vaccination passport imply those people to be against the COVID-19 vaccination?
 
 ## Type of Question
 
-The research question I will answer is a **INSERT_ANSWER** question.
+The research question I will answer is a Descriptive question.
 
 Replace **INSERT_ANSWER** with one of the choices below:^[These question types are borrowed from a paper by Jeff Leek and Roger Peng in their paper: "What is the question?"[-@Leek1314].
 ]
@@ -84,6 +83,6 @@ Will the figure(s) be a box-plot, scatter plot, something else?
 
 ## Word Count
 
-Number of Words: `r wordcountaddin::word_count("proposal.Rmd")`
+Number of Words: `r wordcountaddin::word_count("milestone-01.Rmd")`
 
 ## References
