@@ -12,12 +12,12 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE)
+# devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE) #already installed
 ```
 
 ## Project Objective
 
-In The Netherlands, the vaccination passport is hot topic in discussions and of high interest to governmental institutions as well as the food and beverages and entertainment business. Should this be implemented? And if so, how? This study will analyze data on tweets about the vaccination passport.
+In The Netherlands, the vaccination passport is hot topic in discussions and of high interest to governmental institutions as well as the food and beverages and entertainment business. Should this be implemented? And if so, how to market it? This study will analyze data on tweets about the vaccination passport.
 
 ## Research Question
 
