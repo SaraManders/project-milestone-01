@@ -15,6 +15,7 @@
 ## NOTES: Add the libraries you need for this script to run sucessfully
 library(dplyr)
 library(tidyr)
+library(tibble)
 library(ggplot2)
 library(tidygraph)
 library(rtweet)
@@ -23,13 +24,15 @@ library(modelsummary)
 # YOUR CODE HERE
 ## NOTES: Do add comments
 
-Vac_pass <- search_tweets("#Vaccinatiepaspoort OR #Vaccinatie #COVID19 OR #Vaccinatie #COVID-19 
-                          OR #Vaccinatiesamenleving OR #VaccinationPassport OR #Vaccination #COVID19 OR #Vaccination #COVID-19 OR 
-                          #Vaccinatie #Coronavirus OR #Vaccinatieprogramma",
-                          include_rts = TRUE,
-                          n = 50000,
-                          retryonratelimit = TRUE) #To retrieve the required tweets from the Twitter API with a max. of 50 000 tweets
+Vac_pass <- search_tweets("#Vaccinatiepaspoort", #to retreive tweets about the vaccination passsport (vaccinatiepaspoort in Dutch)
+                          include_rts = TRUE, #To include retweets
+                          n = 10000, #Set the limit to 10 000 to load a dataset big enough, yet to not have to wait an hour to retreive my data
+                          retryonratelimit = TRUE) #To retrieve the required tweets from the Twitter API with a max. of 10 000 tweets, managed to get 74%
 
+View(Vac_pass)
+#7397 entries, 90 columns
+
+#I want to retrieve only tweets from the Netherlands, so:
 
 
 # Save Data to File
