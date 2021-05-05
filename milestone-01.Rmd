@@ -47,12 +47,7 @@ Keep the choice which applies to your project:
 
 - I have downloaded the necessary data for this project. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
 The instructors need to be able to run this script so be clear what libraries are needed to be installed.
-]
-- I have not yet downloaded the final data for this project because the event I want to study has yet to occur, but have a working R script that downloads data for an earlier time period. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
-The instructors need to be able to run this script.
-]
-  - **NOTES:** Only use this option if you are using the Twitter API, and the event you plan to study has not occurred by the proposal deadline
-- I am yet to download the necessary data for this project
+
   - **NOTES:** Selecting this option comes with a **30% penalty** to your grade as you have not met the requirements for the proposal.
 
 ## Data Description
